@@ -1,0 +1,50 @@
+[
+  { "if": { "pollution_air": "elevee", "biodiversite": "faible" }, "then": { "risque": "eleve", "action": "urgence" } },
+  { "if": { "pollution_eau": "elevee", "biodiversite": "faible" }, "then": { "risque": "eleve", "action": "urgence" } },
+
+  { "if": { "pollution_air": "moyenne", "biodiversite": "faible" }, "then": { "risque": "modere", "action": "prevention" } },
+  { "if": { "pollution_eau": "moyenne", "vegetation": "faible" }, "then": { "risque": "modere", "action": "prevention" } },
+
+  { "if": { "erosion": "forte", "vegetation": "faible" }, "then": { "risque": "eleve", "action": "urgence" } },
+  { "if": { "erosion": "moyenne", "vegetation": "faible" }, "then": { "risque": "modere", "action": "prevention" } },
+
+  { "if": { "urbanisation": "elevee", "biodiversite": "faible" }, "then": { "risque": "eleve", "action": "urgence" } },
+  { "if": { "urbanisation": "moyenne", "biodiversite": "faible" }, "then": { "risque": "modere", "action": "prevention" } },
+
+  { "if": { "deforestation": "elevee", "vegetation": "faible" }, "then": { "risque": "eleve", "action": "urgence" } },
+  { "if": { "deforestation": "moyenne", "vegetation": "faible" }, "then": { "risque": "modere", "action": "prevention" } },
+
+  { "if": { "stress_hydrique": "eleve", "vegetation": "faible" }, "then": { "risque": "eleve", "action": "urgence" } },
+  { "if": { "stress_hydrique": "moyen", "vegetation": "faible" }, "then": { "risque": "modere", "action": "prevention" } },
+
+  { "if": { "temperature": "elevee", "humidite_sol": "seche" }, "then": { "risque": "eleve", "action": "urgence" } },
+  { "if": { "temperature": "normale", "humidite_sol": "seche" }, "then": { "risque": "modere", "action": "prevention" } },
+
+  { "if": { "pollution_air": "faible", "biodiversite": "riche" }, "then": { "risque": "faible", "action": "surveillance" } },
+  { "if": { "pollution_eau": "faible", "biodiversite": "riche" }, "then": { "risque": "faible", "action": "surveillance" } },
+
+  { "if": { "vegetation": "dense", "erosion": "faible" }, "then": { "risque": "faible", "action": "surveillance" } },
+  { "if": { "vegetation": "dense", "stress_hydrique": "faible" }, "then": { "risque": "faible", "action": "surveillance" } },
+
+  { "if": { "urbanisation": "faible", "biodiversite": "riche" }, "then": { "risque": "faible", "action": "surveillance" } },
+
+  { "if": { "pollution_air": "elevee", "pollution_eau": "elevee" }, "then": { "risque": "eleve", "action": "urgence" } },
+  { "if": { "pollution_air": "moyenne", "pollution_eau": "moyenne" }, "then": { "risque": "modere", "action": "prevention" } },
+
+  { "if": { "deforestation": "elevee", "biodiversite": "faible" }, "then": { "risque": "eleve", "action": "urgence" } },
+  { "if": { "deforestation": "faible", "biodiversite": "riche" }, "then": { "risque": "faible", "action": "surveillance" } },
+
+  { "if": { "erosion": "forte", "stress_hydrique": "eleve" }, "then": { "risque": "eleve", "action": "urgence" } },
+  { "if": { "erosion": "moyenne", "stress_hydrique": "moyen" }, "then": { "risque": "modere", "action": "prevention" } },
+
+  { "if": { "temperature": "basse", "humidite_sol": "humide" }, "then": { "risque": "faible", "action": "surveillance" } },
+
+  { "if": { "urbanisation": "elevee", "pollution_air": "elevee" }, "then": { "risque": "eleve", "action": "urgence" } },
+  { "if": { "urbanisation": "moyenne", "pollution_air": "moyenne" }, "then": { "risque": "modere", "action": "prevention" } },
+
+  { "if": { "pollution_air": "elevee", "vegetation": "faible" }, "then": { "risque": "eleve", "action": "urgence" } },
+  { "if": { "pollution_eau": "elevee", "vegetation": "faible" }, "then": { "risque": "eleve", "action": "urgence" } },
+
+  { "if": { "stress_hydrique": "faible", "humidite_sol": "humide" }, "then": { "risque": "faible", "action": "surveillance" } },
+  { "if": { "temperature": "normale", "vegetation": "moyenne" }, "then": { "risque": "modere", "action": "prevention" } }
+]

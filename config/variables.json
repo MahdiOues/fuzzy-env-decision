@@ -1,0 +1,121 @@
+{
+  "pollution_air": {
+    "type": "input",
+    "range": [0, 100],
+    "sets": {
+      "faible": [0, 0, 30],
+      "moyenne": [20, 50, 80],
+      "elevee": [60, 100, 100]
+    }
+  },
+
+  "pollution_eau": {
+    "type": "input",
+    "range": [0, 100],
+    "sets": {
+      "faible": [0, 0, 30],
+      "moyenne": [20, 50, 80],
+      "elevee": [60, 100, 100]
+    }
+  },
+
+  "humidite_sol": {
+    "type": "input",
+    "range": [0, 100],
+    "sets": {
+      "seche": [0, 0, 40],
+      "normale": [30, 60, 80],
+      "humide": [70, 100, 100]
+    }
+  },
+
+  "erosion": {
+    "type": "input",
+    "range": [0, 100],
+    "sets": {
+      "faible": [0, 0, 30],
+      "moyenne": [20, 50, 80],
+      "forte": [60, 100, 100]
+    }
+  },
+
+  "vegetation": {
+    "type": "input",
+    "range": [0, 100],
+    "sets": {
+      "faible": [0, 0, 40],
+      "moyenne": [30, 60, 80],
+      "dense": [70, 100, 100]
+    }
+  },
+
+  "biodiversite": {
+    "type": "input",
+    "range": [0, 100],
+    "sets": {
+      "faible": [0, 0, 40],
+      "moyenne": [30, 60, 80],
+      "riche": [70, 100, 100]
+    }
+  },
+
+  "temperature": {
+    "type": "input",
+    "range": [0, 50],
+    "sets": {
+      "basse": [0, 0, 15],
+      "normale": [10, 25, 35],
+      "elevee": [30, 50, 50]
+    }
+  },
+
+  "urbanisation": {
+    "type": "input",
+    "range": [0, 100],
+    "sets": {
+      "faible": [0, 0, 30],
+      "moyenne": [20, 50, 80],
+      "elevee": [60, 100, 100]
+    }
+  },
+
+  "deforestation": {
+    "type": "input",
+    "range": [0, 100],
+    "sets": {
+      "faible": [0, 0, 30],
+      "moyenne": [20, 50, 80],
+      "elevee": [60, 100, 100]
+    }
+  },
+
+  "stress_hydrique": {
+    "type": "input",
+    "range": [0, 100],
+    "sets": {
+      "faible": [0, 0, 30],
+      "moyen": [20, 50, 80],
+      "eleve": [60, 100, 100]
+    }
+  },
+
+  "risque": {
+    "type": "output",
+    "range": [0, 100],
+    "sets": {
+      "faible": [0, 0, 30],
+      "modere": [20, 50, 80],
+      "eleve": [60, 100, 100]
+    }
+  },
+
+  "action": {
+    "type": "output",
+    "range": [0, 10],
+    "sets": {
+      "surveillance": [0, 0, 3],
+      "prevention": [2, 5, 7],
+      "urgence": [6, 10, 10]
+    }
+  }
+}
