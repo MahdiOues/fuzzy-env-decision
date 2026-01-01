@@ -26,7 +26,7 @@ Développer un système flou multiparamètres pour :
 
 \- Streamlit
 
-\- NumPy, pandas, Matplotlib, Spicy, Plotly
+\- NumPy, pandas, Matplotlib, SciPy, Plotly
 
 
 
